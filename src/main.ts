@@ -1,4 +1,4 @@
-import './assets/style/main.css'
+import '@/assets/style/main.css'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 

@@ -1,6 +1,6 @@
 import { describe, test, expect } from 'vitest'
 
-import { consoleDebug, consoleError, consoleLog, consoleWarning } from './logger'
+import { consoleDebug, consoleError, consoleLog, consoleWarning } from '@/helpers/logger'
 
 describe('Logger ', () => {
   test('consoleDebug should be a function', () => {
